@@ -1,4 +1,5 @@
 <script setup>
+//endpoint
 const { data: products } = await useFetch("http://127.0.0.1:8000/api/hello/retrieve-products");
 console.log(products);
 </script>
